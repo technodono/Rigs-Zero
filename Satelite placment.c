@@ -5,9 +5,9 @@ float position3[3];
 int counter;
 void init(){
 
-	/********************************************************************************************************/
-	/* Sets the 1st 2nd and 3rd positions of the triange - you may need to edit these for a smaller triangle*/
-	/********************************************************************************************************/
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Sets the 1st 2nd and 3rd positions of the triange - you may need to edit these for a smaller triangle //
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 position[0] = 0.74f;
 position[1] = 0.0f;
 position[2] = 0.0f;
@@ -24,7 +24,9 @@ counter = 0;
 	//IMPORTANT: make sure to set any variables that need an initial value.
 	//Do not assume variables will be set to 0 automatically!
 }
-
+//////////////////////////////////////////////////////////////////////////////////////////
+// If yoy edit the positions you may need to change the timing in the counter variables //
+//////////////////////////////////////////////////////////////////////////////////////////
 void loop(){
     api.setPositionTarget(position);
     if (counter >20 && counter <50){
