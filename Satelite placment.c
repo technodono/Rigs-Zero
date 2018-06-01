@@ -52,4 +52,6 @@ void loop(){
 
 	//This function is called once per second.  Use it to control the satellite.
 
-//cool code made by technodono
+//////////////////////////
+// Code made by donovan //
+//////////////////////////
